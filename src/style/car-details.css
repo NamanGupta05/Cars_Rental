@@ -123,12 +123,6 @@
     .section_description {
       font-size: 0.8rem;
     }
-  
-    .d-flex {
-      flex-direction: column;
-      gap: 1rem;
-    }
-  
     .booking-info,
     .payment__info {
       padding: 0.8rem;
