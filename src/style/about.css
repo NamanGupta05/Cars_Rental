@@ -1,0 +1,10 @@
+@media only screen and (max-width:768px){
+    .about_page_img{
+
+    }
+}
+@media only screen and (max-width:992px){
+    .about_page_content{
+        font-size: 1.5rem;
+    }
+}

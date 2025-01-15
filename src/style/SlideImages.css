@@ -1,0 +1,74 @@
+.collections-container {
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  .collections-heading {
+    font-size: 2.5rem;
+    color: #17225f;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .slider-wrapper {
+    position: relative;
+  }
+  
+  .scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-color: hsla(227, 62%, 23%, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scroll-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .left-btn {
+    left: -25px; /* Adjust the position based on slider width */
+  }
+  
+  .right-btn {
+    right: -25px; /* Adjust the position based on slider width */
+  }
+  
+  .car-card {
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .car-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .car-image {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .car-name {
+    font-size: 1.2rem;
+    color: #074e74;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  

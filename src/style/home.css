@@ -1,0 +1,19 @@
+.Cars_offer{
+    background: linear-gradient(rgb(23, 59, 157),rgb(198, 129, 99),rgb(232, 186, 69));
+}
+.section_subtitle{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(201, 169, 28);
+}
+.section_title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(15, 15, 69);
+}
+.testimonial{
+    background: linear-gradient(to right, rgb(103, 136, 202), rgb(222, 172, 151));
+}
+.Blog_home{
+    background: linear-gradient(to right, rgb(59, 135, 206),rgb(214, 137, 66));
+}

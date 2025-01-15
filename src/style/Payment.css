@@ -1,0 +1,77 @@
+.payment {
+  padding: 10px 15px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center; /* Ensures vertical alignment */
+  gap: 1rem; /* Add consistent spacing between elements */
+}
+
+.payment:hover {
+  background-color: #e9ecef;
+  border-color: #ced4da;
+}
+
+.payment label {
+  font-size: 16px;
+  color: #6d8298;
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Align radio button and text vertically */
+  gap: 0.5rem;
+  flex: 0; /* Ensures label and radio button align properly */
+}
+.master{
+  width: 500px; /* Fixed size for uniformity */
+  height: auto;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+.payment img {
+  width: 50px; /* Fixed size for uniformity */
+  height: auto;
+  border-radius: 5px;
+  flex-shrink: 0; /* Prevents image from shrinking */
+}
+
+.payment input[type="radio"] {
+  accent-color: #f9a826;
+  transform: scale(1.2); /* Slightly larger for better visibility */
+  cursor: pointer;
+}
+
+.payment button {
+  padding: 10px 20px;
+  background-color: #f9a826;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment button:hover {
+  background-color: #e08d1c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .payment img {
+    width: 40px;
+  }
+
+  .payment label {
+    font-size: 14px;
+  }
+
+  .payment button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+

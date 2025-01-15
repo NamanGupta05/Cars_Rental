@@ -1,0 +1,87 @@
+.slider-item{
+    max-width: 100%;
+    height: 700px;
+}
+
+.slider_item_01{
+    background:linear-gradient(rgb(0,13,107,0.5),rgb(0,13,107,0.5)),url(../assests/all-images/slider-img/slider-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider_item_02{
+    background: linear-gradient(rgb(0,13,107,0.5),rgb(0,13,107,0.5)),url(../assests/all-images/slider-img/slider-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider_item_03{
+    background: linear-gradient(rgb(0,13,107,0.5),rgb(0,13,107,0.5)),url(../assests/all-images/slider-img/slider-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_slider{
+    overflow: hidden;
+}
+
+.slider_content{
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+
+.slider_content h1{
+    font-size: 3.2rem;
+    font-weight: 600px;
+}
+
+.reserve_btn{
+    background: #fff !important;
+    color: #000d6b !important;
+    border: none;
+    outline: none;
+    max-width: 20%;
+
+}
+
+.reserve_btn a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000d6b;
+}
+
+.reserve_btn:hover{
+   background: #000d6b;
+   color: #fff;
+
+}
+
+@media only screen and (max-width: 992px){
+    .slider-item{
+        height: 530px;
+        width: 100%;
+    }
+    .slider_content{
+        margin-top: -70px;
+    }
+    .slider_content h1{
+        font-size: 2rem;
+    }
+    .reserve_btn{
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .slider-item{
+        height: 450px;
+    }
+    .slider_content h1{
+        font-size: 1.5rem;
+    }
+    .reserve_btn{
+        max-width: 50%;
+    }
+}

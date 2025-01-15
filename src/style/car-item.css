@@ -1,0 +1,135 @@
+.car_item {
+    border: 1px solid #7c8a9736;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.car_item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.car_img img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    border-radius: 5px;
+}
+
+.car_img img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.car_item_info span i {
+    color: #f9a826;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.car_item_info span:hover i {
+    color: #000d6b;
+}
+
+.car_item_btn {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: linear-gradient(rgb(12, 24, 55),rgb(201, 97, 53),rgb(219, 160, 11));
+    padding: 8px 0px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.car_item_btn:hover {
+    background: linear-gradient(rgb(23, 59, 157),rgb(198, 129, 99),rgb(232, 186, 69));;
+    transform: scale(1.02);
+}
+
+.car_item_btn a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.car_item_btn a:hover {
+    background: linear-gradient(rgb(23, 59, 157),rgb(198, 129, 99),rgb(232, 186, 69));
+}
+.car_btn_details {
+    background: linear-gradient(rgb(23, 59, 157),rgb(198, 129, 99),rgb(232, 186, 69));
+    border-radius: 0px 4px 4px 0px;
+}
+
+.car_btn_rent {
+    border-radius: 4px 0px 0px 4px;
+}
+
+.car_btn_details:hover {
+    background: linear-gradient(rgb(12, 24, 55),rgb(201, 97, 53),rgb(219, 160, 11));
+}
+
+.car_item_content h4 {
+    font-size: 1.8rem;
+    transition: color 0.3s ease;
+}
+
+.car_item_content h4:hover {
+    color: #000d6b;
+}
+
+.car_item_content h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.car_item_content h6:hover {
+    color: #000;
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 992px) {
+    .car_item h4 {
+        font-size: 1.3rem;
+    }
+
+    .car_item h6 {
+        font-size: 1rem;
+    }
+
+    .car_item_info {
+        flex-wrap: wrap;
+    }
+
+    .car_item_info span {
+        font-size: 0.8rem;
+    }
+
+    .car_item_btn {
+        padding: 5px 10px;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .car_item h4 {
+        font-size: 1.1rem;
+    }
+
+    .car_item h6 {
+        font-size: 0.9rem;
+    }
+
+    .car_item_info span {
+        font-size: 0.7rem;
+    }
+
+    .car_item_info span i {
+        font-size: 1rem;
+    }
+
+    .car_item_btn {
+        font-size: 0.8rem;
+    }
+}

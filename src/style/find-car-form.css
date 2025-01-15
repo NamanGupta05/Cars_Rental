@@ -1,0 +1,157 @@
+.find_cars_left{
+    background: linear-gradient(rgba(246, 174, 67, 0.9),rgb(223, 197, 197)),url('../assests/all-images/slider-img/slider-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 35px;
+    cursor: pointer;
+}
+
+.find_cars_left h2{
+    font-weight: 600;
+    font-size: 2.8rem;
+    color: rgba(19, 33, 106, 0.9);
+}
+.form_group{
+    width: 30%;
+    margin-bottom: 0;
+   
+}
+.form_group input{
+    border: 1px solid #7c8a972a;
+    padding: 8px 12px;
+    width: 100%;
+    outline: none;
+}
+
+.form_group input::placeholder{
+    color: #f59f77;
+    font-weight: 600;
+}
+.form{
+    background: linear-gradient(rgba(246, 174, 67, 0.9),rgb(223, 197, 197));
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.select_group{
+    width: 30%;
+    color: #f59f77;
+    font-weight: 600;
+}
+
+.select_group select{
+    border: 1px solid #7c8a972a;
+    padding: 10px 15px;
+    width: 100%;
+    outline: none ;
+    color: #f59f77;
+    font-weight: 600;
+}
+
+.hero_slider_section{
+    position: relative;
+    z-index: 10;
+    margin-bottom: 200px;
+}
+.hero_form{
+    position: absolute;
+    bottom: -170px;
+    z-index: 11;
+    width: 100%;
+}
+.form_row{
+    background:linear-gradient(rgba(246, 174, 67, 0.9),rgb(223, 197, 197));
+    box-shadow: 5px 5px 15px -5px #f3a303;
+}
+
+.Journey_time::before{
+    content: "Journey Time";
+    margin-right: 0.2rem;
+    color: #f59f77;
+}
+.Journey_time{
+    color: #f59f77;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+.date{
+    color: #f59f77;
+    font-weight: 600;
+    
+}
+.Journey_time::placeholder{
+    color: #f59f77;
+    font-weight: 600;
+}
+
+.date::placeholder{
+    color: #f59f77;
+    font-weight: 600;
+}
+
+.form_group .find_cars_btns{
+    background: linear-gradient(rgba(32, 110, 219, 0.9),rgb(33, 23, 165));
+    color: rgba(249, 168, 38, 0.9);
+    border: none;
+    padding: 8px 15px;
+    font-weight: 600;
+    outline: none;
+    width: 100%;
+}
+
+.form_group .find_cars_btns:hover{
+    background: linear-gradient(rgba(17, 10, 152, 0.9),rgb(91, 147, 189));
+    color: rgb(249,168,38,0.9);
+
+}
+
+@media only screen and (max-width:992px){
+    .find_cars_left{
+        padding: 65px 22px;
+    }
+    .find_cars_left h2{
+        font-size: 1.5rem;
+    }
+    .form{
+        padding: 30px 10px;
+    }
+    .form_group input, .select_group select{
+        padding: 10px 10px;
+        font-size: 0.8rem;
+    }
+    .hero_form{
+        bottom: -170px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+   .find_cars_left{
+    padding: 65px 22px;
+    text-align: center;
+   } 
+   .Journey_time::before{
+    content: "Time";
+    margin-right: 0.3rem;
+    color: #f59f77;
+}
+   .Journey_timer{
+    font-size: 0.2rem;
+    display: flex;
+    justify-content: space-around;
+    
+   }
+   .form{
+    padding: 20px 10px;
+   }
+}
+
+@media only screen and (max-width: 576px){
+     
+    .hero_form{
+      bottom: -220px;
+    }
+}
